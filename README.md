@@ -59,13 +59,31 @@ Possible Output:
 1. Create Repository
    - Go to GitHub and log in.
    - Click New Repository -> Enter a repository name -> Choose Public or Private -> Click Create repository.
-[Images]
+<p align="center">
+  <img width="100%" src="pic/S1.png" alt="pic1">
+</p>
 
 You can choose between 
 
-2. Connect Local Repository to GitHub
-2. 
-
+2. Clone an Existing Repository
+```bash
+cd
+mkdir ds-github
+cd ds-github
+git clone https://github.com/your-username/your-repo-name.git  
+cd your-repo-name
+```
+2. Use the Token for Git Authentication
+```bash
+git remote set-url origin https://YOUR_GITHUB_USERNAME:TOKEN@github.com/YOUR_GITHUB_USERNAME/YOUR_REPO.git
+```
+3. Make Changes and Push to GitHub
+```bash
+touch test.py
+git add .  # Stage all changes  or u can use git add test.py
+git status # You can see the changes
+git commit -m "Add file test.py"
+```
 
 
 
