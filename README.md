@@ -76,6 +76,7 @@ cd your-repo-name
 2. Use the Token for Git Authentication
 ```bash
 git remote set-url origin https://YOUR_GITHUB_USERNAME:TOKEN@github.com/YOUR_GITHUB_USERNAME/YOUR_REPO.git
+git fetch
 ```
 3. Make Changes and Push to GitHub
 ```bash
@@ -83,6 +84,20 @@ touch test.py
 git add .  # Stage all changes  or u can use git add test.py
 git status # You can see the changes
 git commit -m "Add file test.py"
+git push origin main
+```
+4. Create a New Branch
+```bash
+git branch #Check current branch
+git branch -a #List all branches	
+git checkout -b new_branch #Create & switch to a new branch	
+git switch main # Switch to an existing branch	
+```
+5. Push and Delete a Branch
+```bash
+git push origin new_branch #Push new branch to github repo
+git branch -d new_branch #Delete a local branch	
+git push origin --new_branch #Delete a remote branch	
 ```
 
 
