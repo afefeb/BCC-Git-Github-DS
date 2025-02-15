@@ -1,15 +1,17 @@
 # BCC-Git-Github-DS
-
+<p align="center">
+  <img width="100%" src="pic/img_git.png" alt="pic1">
+</p>
 Hello fellow BCC interns and aspiring developers! 
 
 This BCC Git & GitHub Tutorial repository is your friendly guide to mastering version control with Git and collaborating efficiently using GitHub. Here, you'll learn fundamental concepts such as repositories, branches, commits, merges, pull requests, and more to build a solid foundation for managing code collaboratively.
 
-## Windows
+## Windows Installation
 
 Good Luck if you are using Windows (hehehe just move to linux ) 
 
-## Linux
-### Installation
+## Linux Installation
+
 1. Before using Git, you need to install it on your system. Open terminal and Follow the steps below to install Git on a Debian-based system (e.g., Ubuntu):
 ```bash
 sudo apt get-update  # Update package lists  
@@ -19,7 +21,7 @@ sudo apt install git  # Install Git
 ```bash
 git --version
 ```
-### Basic Git Setup
+## Basic Git Setup
 1. Set Up Your Name and Email
 ```bash
 git config --global user.name "Your Name" #Fill with your name (U can use your username github)
@@ -55,12 +57,12 @@ Possible Output:
  create mode 100644 hello.txt
 
 
-### Basic Github
+## Basic Github
 1. Create Repository
    - Go to GitHub and log in.
    - Click New Repository -> Enter a repository name -> Choose Public or Private -> Click Create repository.
 <p align="center">
-  <img width="100%" src="pic/S1.png" alt="pic1">
+  <img width="100%" src="pic/S1.png" alt="pic2">
 </p>
 
 You can choose between 
