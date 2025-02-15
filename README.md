@@ -146,7 +146,7 @@ git switch main # Switch to an existing branch
 ```bash
 git push origin new_branch #Push new branch to github repo
 git branch -d new_branch #Delete a local branch	
-git push origin --new_branch #Delete a remote branch
+git push origin --delete new-feature #Delete a remote branch
 ```
 
 ## Video
