@@ -109,18 +109,22 @@ git remote set-url origin https://YOUR_GITHUB_USERNAME:TOKEN@github.com/YOUR_GIT
 git fetch
 ```
 How to get the token ?
+- First go to the profile and go to setting
 <p align="center">
   <img width="100%" src="pic/S2.png" alt="pic3">
 </p>
-
+- After that scroll down and search for 'developer settings'
 <p align="center">
   <img width="100%" src="pic/S3.png" alt="pic4">
 </p>
-
+- From there click Personal Access Tokens and go to generate new token , choose "generate new token classic"
 <p align="center">
   <img width="100%" src="pic/S4.png" alt="pic5">
 </p>
-
+- Name the token whatever u want and check some permission that you need and click generate token
+<p align="center">
+  <img width="100%" src="pic/S5.png" alt="pic6">
+</p>
 
 3. Make Changes and Push to GitHub
 ```bash
@@ -144,8 +148,12 @@ git branch -d new_branch #Delete a local branch
 git push origin --new_branch #Delete a remote branch
 ```
 
-6. 
+## Video
+-Still confused? You can watch a 40 minutes GitHub tutorial for a clearer understanding. [Full Youtube Video](https://www.youtube.com/watch?v=tRZGeaHPoaw&t=725s)
+
+
 ## Bonus
+- git merge -> Combine changes from one branch into another. (Be careful with conflicts! You need to resolve them first before you can successfully complete the merge.)
 - git log -> View commit history.
 - git reset <file> -> Unstage a file before committing.
 - git stash -> Temporarily save uncommitted changes.
@@ -164,7 +172,6 @@ I highly recommend starting with the basics and using the CLI version of Git. On
 - [Git](https://git-scm.com/docs/gittutorial)
 - [Git](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git)
 - [Github](https://docs.github.com/en/get-started)
-
 
 
 
