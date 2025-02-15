@@ -9,14 +9,14 @@ This BCC Git & GitHub Tutorial repository is your friendly guide to mastering ve
 ## What You'll Learn
 By following this step, you will learn:
 
-- **Creating a Repository:**  
-  How to set up a new repository on GitHub.
+- **Creating a Repository:**
+  - How to set up a new repository on GitHub.
 - **Cloning an Existing Repository:**
-  How to copy a GitHub repository to your local system.
+  - How to copy a GitHub repository to your local system.
 - **Making Changes and Pushing to GitHub:**
-  How to create, track, and upload changes to your repository.
+  - How to create, track, and upload changes to your repository.
 - **Branch Management:**
-  How to create, switch, and list branches for better collaboration.
+  - How to create, switch, and list branches for better collaboration.
 
 ## Windows Installation
 
@@ -78,6 +78,7 @@ git add hello.txt  # Stage the file to be included in the next commit
 git commit -m "First commit"  # Save the changes with a meaningful commit message
 ```
 Possible Output:
+
 [master (root-commit) 213883c] First commit
 
  1 file changed, 1 insertion(+)
