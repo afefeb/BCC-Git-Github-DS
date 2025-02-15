@@ -8,6 +8,23 @@ This BCC Git & GitHub Tutorial repository is your friendly guide to mastering ve
 
 ## Windows Installation
 
+1. Download Git
+- Visit the official Git website: [Git](https://git-scm.com/downloads) for Windows 
+- Click the download button to get the latest installer.
+
+2. Install Git
+
+- Open the downloaded .exe file.
+- Follow the installation wizard, keeping the default settings unless you need custom configurations.
+- Ensure that "Git Bash" and "Git GUI" options are selected during installation.
+
+3. Check Version
+- Open Git Bash or Command Prompt and run:
+```bash
+git --version
+```
+
+
 Good Luck if you are using Windows (hehehe just move to linux ) 
 
 ## Linux Installation
@@ -80,6 +97,20 @@ cd your-repo-name
 git remote set-url origin https://YOUR_GITHUB_USERNAME:TOKEN@github.com/YOUR_GITHUB_USERNAME/YOUR_REPO.git
 git fetch
 ```
+How to get the token ?
+<p align="center">
+  <img width="100%" src="pic/S2.png" alt="pic3">
+</p>
+
+<p align="center">
+  <img width="100%" src="pic/S3.png" alt="pic4">
+</p>
+
+<p align="center">
+  <img width="100%" src="pic/S4.png" alt="pic5">
+</p>
+
+
 3. Make Changes and Push to GitHub
 ```bash
 touch test.py
@@ -103,15 +134,18 @@ git push origin --new_branch #Delete a remote branch
 ```
 
 ### Note:
-I highly recommend starting with the basics and using the CLI version of Git. Once you're familiar with it, you can transition to GitHub Desktop for a more visual experience. (still i love CLI
+I highly recommend starting with the basics and using the CLI version of Git. Once you're familiar with it, you can transition to [GitHub Desktop](https://desktop.github.com/download/) for a more visual experience. (still i love CLI)
 
 ## Assignment
-1. Make your own repository for personal use and you can use that repository to clone another material in the future. You can use thisformat : TeamNumber-YourName (Use Full Name)
+1. Make your own repository for personal use and you can use that repository to clone another material in the future. You can use this format : TeamNumber-YourName (Use Full Name)
    ex = 1-Pieter  
 3. Set up a team repository to collaborate and store code with your team. You can use a structured format like this: TeamNumber-MemberName1-MemberName2 (Use FullName)
    ex = 1-Pieter-Toni
 
-
+## Source:
+- [Git](https://git-scm.com/docs/gittutorial)
+- [Git](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git)
+- [Github](https://docs.github.com/en/get-started)
 
 
 
