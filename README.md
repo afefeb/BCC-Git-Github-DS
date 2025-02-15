@@ -6,6 +6,18 @@ Hello fellow BCC interns and aspiring developers!
 
 This BCC Git & GitHub Tutorial repository is your friendly guide to mastering version control with Git and collaborating efficiently using GitHub. Here, you'll learn fundamental concepts such as repositories, branches, commits, merges, pull requests, and more to build a solid foundation for managing code collaboratively.
 
+## What You'll Learn
+By following this step, you will learn:
+
+- **Creating a Repository:**  
+  How to set up a new repository on GitHub.
+- **Cloning an Existing Repository:**
+  How to copy a GitHub repository to your local system.
+- **Making Changes and Pushing to GitHub:**
+  How to create, track, and upload changes to your repository.
+- **Branch Management:**
+  How to create, switch, and list branches for better collaboration.
+
 ## Windows Installation
 
 1. Download Git
@@ -23,9 +35,7 @@ This BCC Git & GitHub Tutorial repository is your friendly guide to mastering ve
 ```bash
 git --version
 ```
-
-
-Good Luck if you are using Windows (hehehe just move to linux ) 
+(just move or try linux hehehehe)
 
 ## Linux Installation
 
@@ -39,13 +49,14 @@ sudo apt install git  # Install Git
 git --version
 ```
 ## Basic Git Setup
+Whether you use Windows or Linux the only difference is in the installation process. Once Git is installed, all the commands and steps remain the same across both operating systems.
 1. Set Up Your Name and Email
 ```bash
 git config --global user.name "Your Name" #Fill with your name (U can use your username github)
 git config --global user.email "your.email@example.com" #Fill with your gmail
 git config --global --list #Check your list
 ```
-2.Initialize a Git Repository
+2. Initialize a Git Repository
 ```bash
 mkdir test-ds-git #make a file
 cd test-ds-git  
@@ -130,8 +141,15 @@ git switch main # Switch to an existing branch
 ```bash
 git push origin new_branch #Push new branch to github repo
 git branch -d new_branch #Delete a local branch	
-git push origin --new_branch #Delete a remote branch	
+git push origin --new_branch #Delete a remote branch
 ```
+
+6. 
+## Bonus
+- git log -> View commit history.
+- git reset <file> -> Unstage a file before committing.
+- git stash -> Temporarily save uncommitted changes.
+
 
 ### Note:
 I highly recommend starting with the basics and using the CLI version of Git. Once you're familiar with it, you can transition to [GitHub Desktop](https://desktop.github.com/download/) for a more visual experience. (still i love CLI)
