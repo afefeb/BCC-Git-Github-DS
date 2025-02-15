@@ -102,6 +102,15 @@ git branch -d new_branch #Delete a local branch
 git push origin --new_branch #Delete a remote branch	
 ```
 
+### Note:
+I highly recommend starting with the basics and using the CLI version of Git. Once you're familiar with it, you can transition to GitHub Desktop for a more visual experience. (still i love CLI
+
+## Assignment
+1. Make your own repository for personal use and you can use that repository to clone another material in the future. You can use thisformat : TeamNumber-YourName (Use Full Name)
+   ex = 1-Pieter  
+3. Set up a team repository to collaborate and store code with your team. You can use a structured format like this: TeamNumber-MemberName1-MemberName2 (Use FullName)
+   ex = 1-Pieter-Toni
+
 
 
 
