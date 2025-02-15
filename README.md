@@ -108,20 +108,20 @@ cd your-repo-name
 git remote set-url origin https://YOUR_GITHUB_USERNAME:TOKEN@github.com/YOUR_GITHUB_USERNAME/YOUR_REPO.git
 git fetch
 ```
-How to get the token ?
-- First go to the profile and go to setting
+How to get the token ? <br>
+i. First go to the profile and go to setting
 <p align="center">
   <img width="100%" src="pic/S2.png" alt="pic3">
 </p>
-- After that scroll down and search for 'developer settings'
+ii. After that scroll down and search for 'developer settings'
 <p align="center">
   <img width="100%" src="pic/S3.png" alt="pic4">
 </p>
-- From there click Personal Access Tokens and go to generate new token , choose "generate new token classic"
+iii. From there click Personal Access Tokens and go to generate new token , choose "generate new token classic"
 <p align="center">
   <img width="100%" src="pic/S4.png" alt="pic5">
 </p>
-- Name the token whatever u want and check some permission that you need and click generate token
+iv. Name the token whatever u want and check some permission that you need and click generate token
 <p align="center">
   <img width="100%" src="pic/S5.png" alt="pic6">
 </p>
@@ -163,9 +163,9 @@ git push origin --new_branch #Delete a remote branch
 I highly recommend starting with the basics and using the CLI version of Git. Once you're familiar with it, you can transition to [GitHub Desktop](https://desktop.github.com/download/) for a more visual experience. (still i love CLI)
 
 ## Assignment
-1. Make your own repository for personal use and you can use that repository to clone another material in the future. You can use this format : TeamNumber-YourName (Use Full Name)
+1. Make your own repository for personal use and you can use that repository to clone another material in the future. <br> You can use this format : TeamNumber-YourName (Use Full Name)
    ex = 1-Pieter  
-3. Set up a team repository to collaborate and store code with your team. You can use a structured format like this: TeamNumber-MemberName1-MemberName2 (Use FullName)
+3. Set up a team repository to collaborate and store code with your team. <br> You can use a structured format like this: TeamNumber-MemberName1-MemberName2 (Use FullName)
    ex = 1-Pieter-Toni
 
 ## Source:
