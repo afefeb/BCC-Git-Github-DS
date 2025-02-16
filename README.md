@@ -148,6 +148,12 @@ git push origin new_branch #Push new branch to github repo
 git branch -d new_branch #Delete a local branch	
 git push origin --delete new-feature #Delete a remote branch
 ```
+6.Pulling the Newest Changes
+```bash
+git fetch  # Retrieve the latest changes from the remote repository without merging them
+git pull origin main  # Fetch and merge the latest changes made by your collaborators
+git pull origin <branch-name>
+```
 
 ## Video
 -Still confused? You can watch a 40 minutes GitHub tutorial for a clearer understanding. [Full Youtube Video](https://www.youtube.com/watch?v=tRZGeaHPoaw&t=725s)
